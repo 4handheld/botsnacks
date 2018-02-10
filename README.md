@@ -18,7 +18,9 @@ Features:
 
 * Bot menu template available and ready for editing : Just edit the bot token, verification token, menu text/payloads, get started payload, and more.
 
-* Easy Payment billing : A single method with just description text and the charge price. That's it!
+* Easy Payment billing : Request payment using a token, Description and Price. Payment platforms include paystack, remita, flutterwave, Paypal, Quickteller and Interswitch.
+
+* Postback as URLContent / QuickReply as URLContent : Easily fetch the response from an api endpoint if the endpoint has been set as a   payload for a QuickReply Button or a Postback button.
 
 * Pre-deployment debugging by running index.php on browser, sending sample requests and viewing responses: Test for bugs before production deployment
 
